@@ -1,0 +1,57 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: url('assets/wood_02.jpg');
+}
+
+#gridTable {
+  width: 400px;
+  margin: 50px auto;
+}
+
+table, td {
+
+  border: 5px solid black;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: #33FFEE;
+}
+
+#restart {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5em;
+  margin-top: 50px;
+  background: #02B3E4;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+-webkit-box-shadow: 0px 20px 30px 0px rgba(232,227,232,1);
+-moz-box-shadow: 0px 20px 30px 0px rgba(232,227,232,1);
+box-shadow: 0px 20px 30px 0px rgba(232,227,232,1);
+cursor: pointer;
+transition: 500ms;
+
+}
+
+#restart:hover{
+  background: #0294E4;
+-webkit-box-shadow: 0px 20px 30px -4px rgba(232,227,232,1);
+-moz-box-shadow: 0px 20px 30px -4px rgba(232,227,232,1);
+box-shadow: 0px 20px 30px -4px rgba(232,227,232,1);
+}
+
+.timerDiv {
+  margin: 0 auto;
+  text-align: center;
+}
